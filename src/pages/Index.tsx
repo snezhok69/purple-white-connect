@@ -26,7 +26,7 @@ const Index = () => {
             RUST
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join our community and start playing today!
+            Присоединяйтесь к нашему сообществу и начните играть прямо сейчас!
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const Index = () => {
 
         <div className="max-w-2xl mx-auto backdrop-blur-sm bg-black/30 p-6 rounded-lg">
           <h2 className="text-2xl font-bold text-white mb-8 text-center">
-            Connect With Us
+            Наши Социальные Сети
           </h2>
           <SocialLinks />
         </div>

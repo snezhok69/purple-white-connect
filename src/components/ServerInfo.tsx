@@ -7,12 +7,12 @@ const ServerInfo = () => {
 
   const copyIP = () => {
     navigator.clipboard.writeText(serverIP);
-    toast("Server IP copied to clipboard!");
+    toast("IP сервера скопирован в буфер обмена!");
   };
 
   return (
     <div className="bg-white/30 backdrop-blur-sm p-6 rounded-lg shadow-lg border border-rustPurple-light">
-      <h2 className="text-2xl font-bold text-rustPurple-dark mb-4">Server IP</h2>
+      <h2 className="text-2xl font-bold text-rustPurple-dark mb-4">IP Сервера</h2>
       <div className="flex items-center justify-center space-x-2">
         <code className="bg-white/50 px-4 py-2 rounded text-rustPurple-dark font-mono">
           {serverIP}
