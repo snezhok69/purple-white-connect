@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
 const ServerInfo = () => {
-  const serverIP = "your.server.ip:28015"; // Replace with your actual server IP
+  const serverIP = "connect play1.bochkarust.space"; // Updated server IP
 
   const copyIP = () => {
     navigator.clipboard.writeText(serverIP);

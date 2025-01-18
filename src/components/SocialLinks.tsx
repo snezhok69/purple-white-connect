@@ -4,17 +4,17 @@ const SocialLinks = () => {
   const socials = [
     {
       name: "Telegram",
-      url: "#", // Replace with your actual Telegram URL
+      url: "https://tg.bochkarust.space",
       className: "bg-[#229ED9] hover:bg-[#1a7aa8]",
     },
     {
       name: "VKontakte",
-      url: "#", // Replace with your actual VK URL
+      url: "https://vk.bochkarust.space",
       className: "bg-[#0077FF] hover:bg-[#0066cc]",
     },
     {
       name: "Discord",
-      url: "#", // Replace with your actual Discord URL
+      url: "https://ds.bochkarust.space",
       className: "bg-[#5865F2] hover:bg-[#4752c4]",
     },
   ];
