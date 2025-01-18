@@ -5,17 +5,17 @@ const SocialLinks = () => {
     {
       name: "Телеграм",
       url: "https://tg.bochkarust.space",
-      className: "bg-[#229ED9] hover:bg-[#1a7aa8]",
+      className: "bg-[#2D1618] hover:bg-[#CD412B] border border-[#CD412B]/30",
     },
     {
       name: "ВКонтакте",
       url: "https://vk.bochkarust.space",
-      className: "bg-[#0077FF] hover:bg-[#0066cc]",
+      className: "bg-[#2D1618] hover:bg-[#CD412B] border border-[#CD412B]/30",
     },
     {
       name: "Дискорд",
       url: "https://ds.bochkarust.space",
-      className: "bg-[#5865F2] hover:bg-[#4752c4]",
+      className: "bg-[#2D1618] hover:bg-[#CD412B] border border-[#CD412B]/30",
     },
   ];
 
@@ -30,7 +30,7 @@ const SocialLinks = () => {
           className="w-full sm:w-auto"
         >
           <Button
-            className={`w-full ${social.className} text-white transition-transform hover:scale-105`}
+            className={`w-full ${social.className} text-gray-300 transition-all hover:scale-105 hover:text-white`}
           >
             {social.name}
           </Button>

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
 const ServerInfo = () => {
-  const serverIP = "connect play1.bochkarust.space"; // Updated server IP
+  const serverIP = "connect play1.bochkarust.space";
 
   const copyIP = () => {
     navigator.clipboard.writeText(serverIP);
@@ -11,17 +11,17 @@ const ServerInfo = () => {
   };
 
   return (
-    <div className="bg-white/30 backdrop-blur-sm p-6 rounded-lg shadow-lg border border-rustPurple-light">
-      <h2 className="text-2xl font-bold text-rustPurple-dark mb-4">IP Сервера</h2>
+    <div className="bg-[#1A1F2C]/90 p-6 rounded border border-[#CD412B]/30 shadow-lg backdrop-blur-sm">
+      <h2 className="text-2xl font-bold text-[#CD412B] mb-4">IP Сервера</h2>
       <div className="flex items-center justify-center space-x-2">
-        <code className="bg-white/50 px-4 py-2 rounded text-rustPurple-dark font-mono">
+        <code className="bg-[#2D1618]/50 px-4 py-2 rounded text-gray-300 font-mono">
           {serverIP}
         </code>
         <Button
           onClick={copyIP}
           variant="outline"
           size="icon"
-          className="hover:bg-rustPurple hover:text-white transition-colors"
+          className="border-[#CD412B] hover:bg-[#CD412B] hover:text-white transition-colors"
         >
           <Copy className="h-4 w-4" />
         </Button>
