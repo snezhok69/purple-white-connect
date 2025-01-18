@@ -38,7 +38,17 @@ const Index = () => {
           <h2 className="text-2xl font-bold text-[#CD412B] mb-8 text-center">
             Наши Социальные Сети
           </h2>
-          <SocialLinks />
+          
+        <SocialLinks />
+        <a
+          href="https://shop.bochkarust.space"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-button"
+        >
+          Наш магазин
+        </a>
+        
         </div>
       </div>
     </div>
