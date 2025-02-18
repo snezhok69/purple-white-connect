@@ -6,26 +6,28 @@ const ServerStats = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="p-4 bg-[#2D1618]/50 rounded border border-[#CD412B]/20">
           <h3 className="text-gray-400 mb-2">Онлайн</h3>
-          <div className="text-2xl font-bold text-white">-</div>
+          <div className="text-2xl font-bold text-white" id="online">-</div>
         </div>
-        <div className="p-4 bg-[#2D1618]/50 rounded border border-[#CD412B]/20">
+        <div className="p-4 bg-[#2D1618]/70 rounded border border-[#CD412B]/20">
           <h3 className="text-gray-400 mb-2">Подключаются</h3>
-          <div className="text-2xl font-bold text-white">-</div>
+          <div className="text-2xl font-bold text-white" id="connecting">-</div>
         </div>
         <div className="p-4 bg-[#2D1618]/50 rounded border border-[#CD412B]/20">
           <h3 className="text-gray-400 mb-2">В очереди</h3>
-          <div className="text-2xl font-bold text-white">-</div>
+          <div className="text-2xl font-bold text-white" id="queued">-</div>
         </div>
         <div className="p-4 bg-[#2D1618]/50 rounded border border-[#CD412B]/20">
           <h3 className="text-gray-400 mb-2">Макс. игроков</h3>
-          <div className="text-2xl font-bold text-white">-</div>
+          <div className="text-2xl font-bold text-white" id="maxPlayers">-</div>
         </div>
       </div>
       <div className="mt-4 text-center text-sm text-gray-400">
-        Последнее обновление: <span>-</span>
+        Последнее обновление: <span id="lastUpdate">-</span>
         <br />
-        Следующее обновление через: <span>30с</span>
+        Следующее обновление через: <span id="nextUpdate">30с</span>
       </div>
+      <link rel="stylesheet" href="css/styles.css" />
+      <script src="js/app.js?v=2"></script>
     </div>
   );
 };
