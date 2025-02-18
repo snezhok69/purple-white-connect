@@ -9,7 +9,7 @@ const ServerStats = () => {
           <div className="text-2xl font-bold text-white" id="online">-</div>
         </div>
         <div className="p-4 bg-[#2D1618]/70 rounded border border-[#CD412B]/20">
-          <h3 className="text-gray-400 mb-2 text-sm">Подключаются</h3>
+          <h3 className="text-gray-400 mb-2">Подключаются</h3>
           <div className="text-2xl font-bold text-white" id="connecting">-</div>
         </div>
         <div className="p-4 bg-[#2D1618]/50 rounded border border-[#CD412B]/20">
