@@ -1,7 +1,5 @@
-
 import ServerInfo from "@/components/ServerInfo";
 import SocialLinks from "@/components/SocialLinks";
-import ServerStats from "@/components/ServerStats";
 
 const Index = () => {
   return (
@@ -33,7 +31,6 @@ const Index = () => {
         </div>
 
         <div className="max-w-xl mx-auto mb-16">
-          <ServerStats />
           <ServerInfo />
         </div>
 
