@@ -1,3 +1,4 @@
+
 import ServerInfo from "@/components/ServerInfo";
 import SocialLinks from "@/components/SocialLinks";
 
@@ -26,7 +27,7 @@ const Index = () => {
             RUST
           </h2>
           <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-            Присоединяйтесь к нашему сообществу и начните играть прямо сейчас!
+            Присоединяйтесь к Bochka Rust и начните играть прямо сейчас!
           </p>
         </div>
 
