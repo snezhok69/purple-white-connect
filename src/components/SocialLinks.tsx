@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 
 const SocialLinks = () => {
@@ -15,6 +16,11 @@ const SocialLinks = () => {
     {
       name: "Дискорд",
       url: "https://ds.bochkarust.space",
+      className: "bg-[#2D1618] hover:bg-[#CD412B] border border-[#CD412B]/30",
+    },
+    {
+      name: "Магазин",
+      url: "https://shop.bochkarust.space",
       className: "bg-[#2D1618] hover:bg-[#CD412B] border border-[#CD412B]/30",
     },
   ];
